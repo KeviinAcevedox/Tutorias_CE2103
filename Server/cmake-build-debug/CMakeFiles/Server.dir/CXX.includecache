@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kevin/CLionProjects/Server/SocketServer.cpp
+SocketServer.h
+/home/kevin/CLionProjects/Server/SocketServer.h
+
+/home/kevin/CLionProjects/Server/SocketServer.h
+sys/socket.h
+-
+sys/types.h
+-
+netdb.h
+-
+string.h
+-
+string
+-
+iostream
+-
+pthread.h
+-
+vector
+-
+unistd.h
+-
+
+/home/kevin/CLionProjects/Server/main.cpp
+SocketServer.h
+/home/kevin/CLionProjects/Server/SocketServer.h
+

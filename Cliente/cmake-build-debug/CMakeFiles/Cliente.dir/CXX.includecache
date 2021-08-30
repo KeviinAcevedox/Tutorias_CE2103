@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kevin/CLionProjects/Cliente/SocketCliente.cpp
+SocketCliente.h
+/home/kevin/CLionProjects/Cliente/SocketCliente.h
+
+/home/kevin/CLionProjects/Cliente/SocketCliente.h
+sys/socket.h
+-
+sys/types.h
+-
+netdb.h
+-
+string.h
+-
+string
+-
+iostream
+-
+pthread.h
+-
+vector
+-
+unistd.h
+-
+arpa/inet.h
+-
+
+/home/kevin/CLionProjects/Cliente/main.cpp
+SocketCliente.h
+/home/kevin/CLionProjects/Cliente/SocketCliente.h
+
