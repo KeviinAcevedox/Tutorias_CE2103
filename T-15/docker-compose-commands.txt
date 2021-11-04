@@ -1,0 +1,21 @@
+// Docker commands
+$ docker images //Ver las imagenes instaladas
+$ docker ps // Ver las  imagenes que se estan ejecutando
+$ docker ps -a //Ver todas las imagenes que se han ejecutado
+$ docker ps -aq // Ver una lista de los ID's 
+$ docker rm NAME // Eliminar una imagen instalada
+$ docker run IMAGE_NAME // Ejecutar una imagen
+$ docker start ID // Iniciar un contenedor
+$ docker stop ID // Detener un contenedor
+
+// Accediendo a puertos
+$ docker run -p 3000:80 IMAGE_NAME
+
+// Ejecutar contenedor con puerto asignado en segundo plano DETACH
+$ docker run -p 3000:80 -d IMAGE_NAME
+
+// Ejecutar contenedor con nombre personalizado
+$ docker run -p 3000:80 -d --name NAME IMAGE_NAME
+
+// Eliminar imagen
+$ docker rmi IMAGE_NAME

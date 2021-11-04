@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  course-service:
+    build: ./API
+    volumes: 
+      - ./API:/app
+    ports: 
+      - 3000:3000
+
+  web-app:
+    build: ./courses-manager
+    volumes: 
+      - ./courses-manager:/app
+    ports:
+      - 2000:2000
+    depends_on:
+      - course-service
