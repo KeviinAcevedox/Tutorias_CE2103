@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #ebc90e;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Courses Preview / list */
+.course-preview  {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+
+.course-preview:hover {
+  box-shadow: 1px 3px 5px;
+}
+
+.course-preview h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+.new-course{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.new-course label{
+  text-align: center;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.new.course input{
+  width: 100%;
+  padding: 10px 10px;
+  margin-left: 20px;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+}
+
+.new-course h2{
+  font-size: 20px;
+  color: #353015;
+  margin-bottom: 30px;
+
+}
+
+.new-course button{
+  background-color: chartreuse;
+  color: #353015;
+  border: 1px solid #353015;
+  margin-top: 10px;
+  padding: 8px 2px;
+  border-radius: 8px;
+}
